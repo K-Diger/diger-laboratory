@@ -4,12 +4,12 @@ import org.springframework.scheduling.annotation.Async
 import org.springframework.stereotype.Service
 
 @Service
-class LabService2 {
+class FirstLabService {
 
     @Async
     @Throws(InterruptedException::class)
     internal fun asyncMethod() {
-        println(addAsyncMethod())
+        addAsyncMethod()
         Thread.sleep(3000)
         println("비동기 메서드 완료")
     }

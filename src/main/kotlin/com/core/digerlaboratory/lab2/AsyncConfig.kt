@@ -12,12 +12,10 @@ class AsyncConfig {
 
     @Bean
     fun taskExecutor(): TaskExecutor {
-
         val taskExecutor = ThreadPoolTaskExecutor()
         taskExecutor.corePoolSize = 10
         taskExecutor.queueCapacity = 50
         taskExecutor.maxPoolSize = 30
-
         return taskExecutor
     }
 }
