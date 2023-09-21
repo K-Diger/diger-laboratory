@@ -1,4 +1,4 @@
-package com.core.digerlaboratory.lab1
+package com.core.digerlaboratory.lab1_controller_private
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping

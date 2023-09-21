@@ -1,4 +1,4 @@
-package com.core.digerlaboratory.lab2
+package com.core.digerlaboratory.lab2_async_private
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

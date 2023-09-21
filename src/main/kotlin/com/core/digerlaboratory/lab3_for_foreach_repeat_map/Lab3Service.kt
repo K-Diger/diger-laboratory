@@ -1,4 +1,4 @@
-package com.core.digerlaboratory.lab3
+package com.core.digerlaboratory.lab3_for_foreach_repeat_map
 
 import org.springframework.stereotype.Service
 

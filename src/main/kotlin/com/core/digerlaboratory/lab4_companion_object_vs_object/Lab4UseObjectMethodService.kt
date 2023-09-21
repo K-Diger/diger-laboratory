@@ -1,4 +1,4 @@
-package com.core.digerlaboratory.lab4
+package com.core.digerlaboratory.lab4_companion_object_vs_object
 
 import org.springframework.stereotype.Service
 

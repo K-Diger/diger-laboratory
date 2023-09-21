@@ -1,12 +1,12 @@
-package com.core.digerlaboratory.lab4
+package com.core.digerlaboratory.lab4_companion_object_vs_object
 
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("/lab4")
-class Lab4Controller(
+@RequestMapping("/lab5")
+class Lab5Controller(
     private val lab4UseCompanionObjectMethodService: Lab4UseCompanionObjectMethodService,
     private val lab4UseObjectMethodService: Lab4UseObjectMethodService,
 ) {

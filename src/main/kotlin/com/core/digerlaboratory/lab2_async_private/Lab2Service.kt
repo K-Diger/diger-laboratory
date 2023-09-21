@@ -1,4 +1,4 @@
-package com.core.digerlaboratory.lab2
+package com.core.digerlaboratory.lab2_async_private
 
 import org.springframework.scheduling.annotation.Async
 import org.springframework.stereotype.Service
